@@ -2,7 +2,7 @@
 
 SPEC = Gem::Specification.new do |s|
   s.name = 'finance'
-  s.version = '2.0.1'
+  s.version = '2.0.2'
   s.author = 'Bill Kranec'
   s.license = 'LGPL-3.0'
   s.email = 'wkranec@gmail.com'
