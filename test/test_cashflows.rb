@@ -48,7 +48,7 @@ describe 'Cashflows' do
     end
 
     it 'should fail to calculate with default guess (1.0)' do
-      assert_equal 0, @transactions.xirr.apr.to_i
+      assert_raises(Flt::Num::InvalidOperation) { @transactions.xirr.apr.to_i }
     end
 
     it 'should calculate correct rate with new guess (0.5)' do
